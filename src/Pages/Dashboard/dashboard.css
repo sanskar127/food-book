@@ -4,3 +4,40 @@
     box-sizing: border-box;
     background: #F6F9FF;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.heading {
+    color: #000;
+    font-family: Eudoxus Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.subheading {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Eudoxus Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create img {
+    margin-right: 6px;
+}

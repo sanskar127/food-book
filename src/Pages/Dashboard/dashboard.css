@@ -51,6 +51,7 @@
     border-radius: 10px;
     border: 1px solid #DAE6FF;
     background: #FFF;
+    box-sizing: border-box;
 }
 
 .search {
@@ -116,5 +117,5 @@
 .options {
     display: flex;
     justify-content: space-between;
-    width: 46%;
+    width: 48%;
 }

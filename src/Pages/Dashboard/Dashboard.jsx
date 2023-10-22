@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './dashboard.css'
 import Circle from '../../assets/images/add-circle.svg'
 import Search from '../../assets/images/search-normal.svg'
+// import Campaign from '../../assets/backend/campaign.json'
 
-const DropdownMenu = ({label, list }) => {
+const DropdownMenu = ({ label, list }) => {
   const [selectedOption, setSelectedOption] = useState(list[0]);
 
   const handleOptionChange = (event) => {
@@ -64,31 +65,27 @@ const Dashboard = () => {
           </div>
 
           <div className="options">
-            <DropdownMenu label={'Platform'} list={['All Platforms', 'Facebook', 'Google', 'Youtube']}/>
-            <DropdownMenu label={'Status'} list={['All Status', 'Live Now', 'Paused', 'Exhausted']}/>
-            <DropdownMenuAlt list={['Last 30 days', 'Last Week', 'Last Year', 'Last 2 days']}/>
+            <DropdownMenu label={'Platform'} list={['All Platforms', 'Facebook', 'Google', 'Youtube']} />
+            <DropdownMenu label={'Status'} list={['All Status', 'Live Now', 'Paused', 'Exhausted']} />
+            <DropdownMenuAlt list={['Last 30 days', 'Last Week', 'Last Year', 'Last 2 days']} />
           </div>
         </div>
-        <div className="table">
+        {/* <div className="table">
           <table>
-            <thead>
-              <tr>
-                <td>
-                  <input type="checkbox" name="" id="" />
-                </td>
-                <td>On/Off</td>
-                <td>Campaign</td>
-                <td>Data Range</td>
-                <td>Clicks</td>
-                <td>Budget</td>
-                <td>Location</td>
-                <td>Platform</td>
-                <td>Status</td>
-                <td>Actions</td>
-              </tr>
-            </thead>
+            <tr>
+              <th><input type="checkbox" name="" id="" /></th>
+              <th>On/Off</th>
+              <th>Campaign</th>
+              <th>Data Range</th>
+              <th>Clicks</th>
+              <th>Budget</th>
+              <th>Location</th>
+              <th>Platform</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
           </table>
-        </div>
+        </div> */}
       </div>
     </div>
   )

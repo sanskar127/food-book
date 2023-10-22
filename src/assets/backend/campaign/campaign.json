@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "checkbox": false,
+        "switch": true,
+        "campaign": {
+            "thumbnail": "images/bluberry.png",
+            "title": "Bluberry cake Campaign",
+            "date": "Created on 14 july"
+        },
+        "range": "25 jul 2020 - 01 Aug 2020",
+        "clicks": 300,
+        "Budget": "INR.3,400",
+        "Location": "Chennai",
+        "Platform": "facebook",
+        "status": "Live now"
+    },
+
+    {
+        "id": 2,
+        "checkbox": false,
+        "switch": true,
+        "campaign": {
+            "thumbnail": "some img",
+            "title": "Bluberry cake Campaign",
+            "date": "Created on 14 july"
+        },
+        "range": "25 jul 2020 - 01 Aug 2020",
+        "clicks": 300,
+        "Budget": "INR.3,400",
+        "Location": "Chennai",
+        "Platform": "facebook",
+        "status": "Live now"
+    },
+    {
+        "id": 3,
+        "checkbox": false,
+        "switch": true,
+        "campaign": {
+            "thumbnail": "some img",
+            "title": "Bluberry cake Campaign",
+            "date": "Created on 14 july"
+        },
+        "range": "25 jul 2020 - 01 Aug 2020",
+        "clicks": 300,
+        "Budget": "INR.3,400",
+        "Location": "Chennai",
+        "Platform": "facebook",
+        "status": "Live now"
+    }
+]

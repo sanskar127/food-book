@@ -6,6 +6,7 @@ import Dashboard from './Pages/Dashboard/Dashboard'
 import Sidebar from './Components/Sidebar/Sidebar'
 import Navbar from './Components/Navbar/Navbar'
 import './App.css'
+import Temp from './Temp'
 
 function App() {
   const router = createBrowserRouter([
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div className='App'>
-      <section className='nav-item'>
+      {/* <section className='nav-item'>
         <Navbar />
       </section>
 
@@ -27,9 +28,10 @@ function App() {
 
       <section className='main-item'>
         <RouterProvider router={router} /> 
-      </section >
+      </section > */}
 
 
+        <Temp/>
     </div>
   )
 

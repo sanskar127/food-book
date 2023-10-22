@@ -1,0 +1,19 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background: #F6F9FF;
+    display: grid;
+    grid-template-columns: 82px auto;
+    grid-template-rows: 80px auto;
+}
+
+.side-item {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.nav-item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}

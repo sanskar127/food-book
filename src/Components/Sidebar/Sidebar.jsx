@@ -34,10 +34,10 @@ const Sidebar = () => {
     <div className='sidebar'>
       <img id='main-logo' src={Logo} alt="main-logo" />
 
-      <Tabs image={Home_SVG} text={'Home'} />
-      <Tabs image={Campaign_SVG} text={'Campaign'} />
-      <Tabs image={Products_SVG} text={'Products'} />
-      <Tabs image={Customers_SVG} text={'Customers'} />
+      <Tabs image={Home_SVG} imageAlt={Home_SVG_Focus} text={'Home'} />
+      <Tabs image={Campaign_SVG} imageAlt={Campaign_SVG_Focus} text={'Campaign'} />
+      <Tabs image={Products_SVG} imageAlt={Products_SVG_Focus} text={'Products'} />
+      <Tabs image={Customers_SVG} imageAlt={Campaign_SVG_Focus} text={'Customers'} />
     </div>
   )
 }

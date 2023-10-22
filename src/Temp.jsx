@@ -1,5 +1,5 @@
 import React from 'react'
-// import Campaign from './temp.json'
+import Campaign from './assets/backend/campaign/campaign.json'
 
 const Temp = () => {
 
@@ -11,18 +11,17 @@ const Temp = () => {
         {/* {console.log(Campaign[0].campaign.thumbnail)} */}
 
         <div className="box">
-            {/* {
-                Campaign && Campaign.map(record => {
+            {
+                Campaign.map(record => {
                     return (
                         <div className="boxi" key={record.id}>
-                            <img src={record.icon} alt="" />
-
+                            <img src={record.campaign.thumbnail} alt="" />
                             <br />
-                            {record.name}
+                            {record.campaign.title}
                         </div>
                     )
                 })
-            } */}
+            }
         </div>
 
     </div>

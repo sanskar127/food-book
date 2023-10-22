@@ -15,37 +15,68 @@
         "Platform": "facebook",
         "status": "Live now"
     },
-
     {
         "id": 2,
         "checkbox": false,
-        "switch": true,
+        "switch": false,
         "campaign": {
-            "thumbnail": "some img",
-            "title": "Bluberry cake Campaign",
-            "date": "Created on 14 july"
+            "thumbnail": "images/chocolate.png",
+            "title": "Chocolate cake campaign",
+            "date": "Created on 20 Jan"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
-        "clicks": 300,
+        "clicks": 210,
         "Budget": "INR.3,400",
-        "Location": "Chennai",
+        "Location": "Coimbatore",
         "Platform": "facebook",
-        "status": "Live now"
+        "status": "Paused"
     },
     {
         "id": 3,
         "checkbox": false,
-        "switch": true,
+        "switch": false,
         "campaign": {
-            "thumbnail": "some img",
-            "title": "Bluberry cake Campaign",
-            "date": "Created on 14 july"
+            "thumbnail": "images/brownie.png",
+            "title": "Browine cake campaign",
+            "date": "Created on 12 Jun"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
-        "clicks": 300,
+        "clicks": 123,
         "Budget": "INR.3,400",
-        "Location": "Chennai",
+        "Location": "Erode",
         "Platform": "facebook",
+        "status": "Exhausted"
+    },
+    {
+        "id": 4,
+        "checkbox": false,
+        "switch": true,
+        "campaign": {
+            "thumbnail": "images/pumpkin.png",
+            "title": "Pumpkin cake camapign",
+            "date": "Created on 28 feb"
+        },
+        "range": "25 jul 2020 - 01 Aug 2020",
+        "clicks": 435,
+        "Budget": "INR.3,400",
+        "Location": "Coimbatore",
+        "Platform": "youtube",
+        "status": "Live now"
+    },
+    {
+        "id": 5,
+        "checkbox": false,
+        "switch": true,
+        "campaign": {
+            "thumbnail": "images/cupcake.png",
+            "title": "Cup cakes campaign",
+            "date": "Created on 10 Jul"
+        },
+        "range": "25 jul 2020 - 01 Aug 2020",
+        "clicks": 123,
+        "Budget": "INR.3,400",
+        "Location": "Coimbatore",
+        "Platform": "google",
         "status": "Live now"
     }
 ]

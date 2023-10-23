@@ -120,15 +120,15 @@
     width: 48%;
 }
 
-.table table {
-    /* width: 1193px;
-    height: 48px; */
+table {
+    width: 1193px;
+    height: 48px;
     border-collapse: separate;
     border-spacing: 25px 0;
 }
 
 .thead {
-    /* border-radius: 10px;
+    border-radius: 10px;
     border: 1.5px solid #EAEAEA;
     background: #F8F8F8;
     color: rgba(0, 0, 0, 0.50);
@@ -136,5 +136,46 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; */
+    line-height: 32px;
+}
+
+td {
+    color: #000;
+    font-family: Eudoxus Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.campaign {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.campaign img {
+    width: 58px;
+    height: 54px;
+    padding-right: 13px;
+}
+
+.campaign-text h3 {
+    color: #000;
+    font-family: Eudoxus Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 228.571% */
+}
+
+.campaign-text h4 {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Eudoxus Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 32px; */
+    /* 266.667% */
 }

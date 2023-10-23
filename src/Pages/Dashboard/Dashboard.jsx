@@ -3,7 +3,7 @@ import './dashboard.css'
 import Circle from '../../assets/images/add-circle.svg'
 import Search from '../../assets/images/search-normal.svg'
 import Switch from '../../Components/Switch';
-// import Campaign from '../../assets/backend/campaign.json'
+import Campaign from '../../assets/backend/campaign.json'
 
 const DropdownMenu = ({ label, list }) => {
   const [selectedOption, setSelectedOption] = useState(list[0]);
@@ -72,13 +72,13 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="table">
-          {/* <table>
+          <table>
             <div className="thead">
               <tr>
-                <th><input type="checkbox" name="" id="" /></th>
+                <th><input type="checkbox" name="ck" id="" /></th>
                 <th>On/Off</th>
                 <th>Campaign</th>
-                <th>Data Range</th>
+                <th>Date Range</th>
                 <th>Clicks</th>
                 <th>Budget</th>
                 <th>Location</th>
@@ -88,9 +88,26 @@ const Dashboard = () => {
               </tr>
             </div>
             <td>
-              <Switch/>
+              {/* <Switch/> */}
             </td>
-          </table> */}
+            <tr>
+              <td><input type="checkbox" name="" id="" /></td>
+              <td><Switch toggle={Campaign[0].switch}/></td>
+              <td>
+                <div>
+                  <img src={Campaign[0].campaign.thumbnail} alt="" />
+                  <h3>{Campaign[0].campaign.title}</h3>
+                  <h4>{Campaign[0].campaign.date}</h4>
+                </div>
+              </td>
+              <td>{Campaign[0].range}</td>
+              <td>{Campaign[0].clicks}</td>
+              <td>{Campaign[0].budget}</td>
+              <td>{Campaign[0].location}</td>
+              <td> <img src={Campaign[0].platform} /></td>
+              <td>{Campaign[0].status}</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>

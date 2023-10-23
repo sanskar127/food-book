@@ -38,15 +38,15 @@
     border-radius: 50%;
 }
 
-input[type='checkbox'] {
+.toggle-switch [type='checkbox'] {
     display: none;
 }
 
-input[type='checkbox']:checked+.slider {
+.toggle-switch [type='checkbox']:checked+.slider {
     background-color: #0F6EFF;
 }
 
-input[type='checkbox']:checked+.slider:before {
+.toggle-switch [type='checkbox']:checked+.slider:before {
     -webkit-transform: translateX(17.339px);
     -ms-transform: translateX(17.339px);
     transform: translateX(17.339px);

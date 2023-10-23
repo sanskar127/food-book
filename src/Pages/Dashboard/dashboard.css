@@ -121,14 +121,14 @@
 }
 
 .table table {
-    width: 1193px;
-    height: 48px;
+    /* width: 1193px;
+    height: 48px; */
     border-collapse: separate;
     border-spacing: 25px 0;
 }
 
 .thead {
-    border-radius: 10px;
+    /* border-radius: 10px;
     border: 1.5px solid #EAEAEA;
     background: #F8F8F8;
     color: rgba(0, 0, 0, 0.50);
@@ -136,6 +136,5 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px;
-    /* 228.571% */
+    line-height: 32px; */
 }

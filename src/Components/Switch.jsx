@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './style.css'
 
-const Switch = () => {
-  const [isChecked, setIsChecked] = useState(false);
+const Switch = ({ toggle }) => {
+  const [isChecked, setIsChecked] = useState(toggle);
 
   const toggleSwitch = () => {
     setIsChecked(!isChecked);

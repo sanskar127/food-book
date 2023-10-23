@@ -4,15 +4,15 @@
         "checkbox": false,
         "switch": true,
         "campaign": {
-            "thumbnail": "images/bluberry.png",
+            "thumbnail": "thumbnails/bluberry.png",
             "title": "Bluberry cake Campaign",
             "date": "Created on 14 july"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
         "clicks": 300,
-        "Budget": "INR.3,400",
-        "Location": "Chennai",
-        "Platform": "facebook",
+        "budget": "INR.3,400",
+        "location": "Chennai",
+        "platform": "platforms/fb.svg",
         "status": "Live now"
     },
     {
@@ -20,15 +20,15 @@
         "checkbox": false,
         "switch": false,
         "campaign": {
-            "thumbnail": "images/chocolate.png",
+            "thumbnail": "thumbnails/chocolate.png",
             "title": "Chocolate cake campaign",
             "date": "Created on 20 Jan"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
         "clicks": 210,
-        "Budget": "INR.3,400",
-        "Location": "Coimbatore",
-        "Platform": "facebook",
+        "budget": "INR.3,400",
+        "location": "Coimbatore",
+        "platform": "platforms/fb.svg",
         "status": "Paused"
     },
     {
@@ -36,15 +36,15 @@
         "checkbox": false,
         "switch": false,
         "campaign": {
-            "thumbnail": "images/brownie.png",
+            "thumbnail": "thumbnails/brownie.png",
             "title": "Browine cake campaign",
             "date": "Created on 12 Jun"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
         "clicks": 123,
-        "Budget": "INR.3,400",
-        "Location": "Erode",
-        "Platform": "facebook",
+        "budget": "INR.3,400",
+        "location": "Erode",
+        "platform": "platforms/fb.svg",
         "status": "Exhausted"
     },
     {
@@ -52,15 +52,15 @@
         "checkbox": false,
         "switch": true,
         "campaign": {
-            "thumbnail": "images/pumpkin.png",
+            "thumbnail": "thumbnails/pumpkin.png",
             "title": "Pumpkin cake camapign",
             "date": "Created on 28 feb"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
         "clicks": 435,
-        "Budget": "INR.3,400",
-        "Location": "Coimbatore",
-        "Platform": "youtube",
+        "budget": "INR.3,400",
+        "location": "Coimbatore",
+        "platform": "platforms/yt.svg",
         "status": "Live now"
     },
     {
@@ -68,15 +68,15 @@
         "checkbox": false,
         "switch": true,
         "campaign": {
-            "thumbnail": "images/cupcake.png",
+            "thumbnail": "thumbnails/cupcake.png",
             "title": "Cup cakes campaign",
             "date": "Created on 10 Jul"
         },
         "range": "25 jul 2020 - 01 Aug 2020",
         "clicks": 123,
-        "Budget": "INR.3,400",
-        "Location": "Coimbatore",
-        "Platform": "google",
+        "budget": "INR.3,400",
+        "location": "Coimbatore",
+        "platform": "platforms/g.svg",
         "status": "Live now"
     }
 ]

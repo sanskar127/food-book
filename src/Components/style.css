@@ -1,0 +1,59 @@
+/* In a separate CSS file or inline style in your component */
+.toggle-switch {
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 37.567px;
+    height: 19.265px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 9.487px;
+    background: #DADEE3;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    width: 17.339px;
+    height: 17.339px;
+    left: 1.5px;
+    bottom: 1.6px;
+    /* background-color: white; */
+    background: url(images/minus.svg);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox']:checked+.slider {
+    background-color: #0F6EFF;
+}
+
+input[type='checkbox']:checked+.slider:before {
+    -webkit-transform: translateX(17.339px);
+    -ms-transform: translateX(17.339px);
+    transform: translateX(17.339px);
+    right: 1.5px;
+    background: url(images/plus.svg);
+}
+
+.slider.round {
+    border-radius: 34px;
+}

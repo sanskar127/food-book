@@ -1,0 +1,20 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Dot">
+<g id="Fill" filter="url(#filter0_d_131_1479)">
+<circle cx="9.93446" cy="9.63245" r="8.66931" fill="white"/>
+</g>
+<path id="Horz" d="M13.7875 9.63184L6.08147 9.63318" stroke="#004AD7" stroke-width="1.44489" stroke-linecap="round"/>
+<path id="Vert" d="M9.93448 5.7793V13.4854" stroke="#004AD7" stroke-width="1.44489" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_d_131_1479" x="0.301888" y="0.481506" width="19.2651" height="19.2651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.481628"/>
+<feGaussianBlur stdDeviation="0.481628"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_131_1479"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_131_1479" result="shape"/>
+</filter>
+</defs>
+</svg>

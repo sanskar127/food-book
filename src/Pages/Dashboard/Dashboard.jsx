@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './dashboard.css'
 import Circle from '../../assets/images/add-circle.svg'
 import Search from '../../assets/images/search-normal.svg'
+import Switch from '../../Components/Switch';
 // import Campaign from '../../assets/backend/campaign.json'
 
 const DropdownMenu = ({ label, list }) => {
@@ -70,22 +71,27 @@ const Dashboard = () => {
             <DropdownMenuAlt list={['Last 30 days', 'Last Week', 'Last Year', 'Last 2 days']} />
           </div>
         </div>
-        {/* <div className="table">
-          <table>
-            <tr>
-              <th><input type="checkbox" name="" id="" /></th>
-              <th>On/Off</th>
-              <th>Campaign</th>
-              <th>Data Range</th>
-              <th>Clicks</th>
-              <th>Budget</th>
-              <th>Location</th>
-              <th>Platform</th>
-              <th>Status</th>
-              <th>Actions</th>
-            </tr>
-          </table>
-        </div> */}
+        <div className="table">
+          {/* <table>
+            <div className="thead">
+              <tr>
+                <th><input type="checkbox" name="" id="" /></th>
+                <th>On/Off</th>
+                <th>Campaign</th>
+                <th>Data Range</th>
+                <th>Clicks</th>
+                <th>Budget</th>
+                <th>Location</th>
+                <th>Platform</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </div>
+            <td>
+              <Switch/>
+            </td>
+          </table> */}
+        </div>
       </div>
     </div>
   )

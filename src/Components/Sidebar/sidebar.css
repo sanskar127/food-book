@@ -51,3 +51,9 @@
     background: rgba(25, 119, 243, 0.10);
     border-left: 5px solid #1977F3;
 }
+
+.special {
+    border-radius: 0px 2px 2px 0px;
+    background: rgba(25, 119, 243, 0.10);
+    border-left: 5px solid #1977F3;
+}

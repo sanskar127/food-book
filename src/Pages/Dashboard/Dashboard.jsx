@@ -3,7 +3,9 @@ import './dashboard.css'
 import Circle from '../../assets/images/add-circle.svg'
 import Search from '../../assets/images/search-normal.svg'
 import Switch from '../../Components/Switch';
-import Campaign from '../../assets/backend/campaign.json'
+import backend from '../../assets/backend/campaign.json'
+import Edit from '../../assets/images/edit-2.svg'
+import Trash from '../../assets/images/trash.svg'
 
 const DropdownMenu = ({ label, list }) => {
   const [selectedOption, setSelectedOption] = useState(list[0]);
@@ -73,9 +75,9 @@ const Dashboard = () => {
         </div>
         <div className="table">
           <table>
-            <div className="thead">
+            <thead>
               <tr>
-                <th><input type="checkbox" name="ck" id="" /></th>
+                <th><input type="checkbox" /></th>
                 <th>On/Off</th>
                 <th>Campaign</th>
                 <th>Date Range</th>
@@ -86,27 +88,40 @@ const Dashboard = () => {
                 <th>Status</th>
                 <th>Actions</th>
               </tr>
-            </div>
-            <td>
-              {/* <Switch/> */}
-            </td>
-            <tr>
-              <td><input type="checkbox" name="" id="" /></td>
-              <td><Switch toggle={Campaign[0].switch}/></td>
-              <td>
-                <div>
-                  <img src={Campaign[0].campaign.thumbnail} alt="" />
-                  <h3>{Campaign[0].campaign.title}</h3>
-                  <h4>{Campaign[0].campaign.date}</h4>
-                </div>
-              </td>
-              <td>{Campaign[0].range}</td>
-              <td>{Campaign[0].clicks}</td>
-              <td>{Campaign[0].budget}</td>
-              <td>{Campaign[0].location}</td>
-              <td> <img src={Campaign[0].platform} /></td>
-              <td>{Campaign[0].status}</td>
-            </tr>
+            </thead>
+            <tbody>
+              {backend.map(item => {
+                return (
+                  <tr className="item" key={item.id}>
+                    <td><input type="checkbox" /></td>
+                    <td><Switch toggle={item.switch} /></td>
+                    <td>
+                      <div className='campaign'>
+                        <img src={item.campaign.thumbnail} alt="" />
+                        <div className="campaign-text">
+                          <h3>{item.campaign.title}</h3>
+                          <h4>{item.campaign.date}</h4>
+                        </div>
+                      </div>
+                    </td>
+                    <td>{item.range}</td>
+                    <td>{item.clicks}</td>
+                    <td>{item.budget}</td>
+                    <td>{item.location}</td>
+                    <td> <img src={item.platform} /></td>
+                    <td>{item.status}</td>
+                    <td>
+                      <span>
+                        <img src={Edit} alt="edit" />
+                      </span>
+                      <span>
+                        <img src={Trash} alt="edit" />
+                      </span>
+                    </td>
+                  </tr>
+                )
+              })}
+            </tbody>
           </table>
         </div>
       </div>

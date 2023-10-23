@@ -1,12 +1,13 @@
 import React from 'react'
 import backend from './assets/backend/campaign.json'
 import Switch from './Components/Switch'
+import Edit from './assets/images/edit-2.svg'
+import Trash from './assets/images/trash.svg'
 
 const Table = () => {
   return (
     <div>
       <table>
-        <div className='thead'>
         <thead>
           <tr>
             <th><input type="checkbox" /></th>
@@ -21,12 +22,10 @@ const Table = () => {
             <th>Actions</th>
           </tr>
         </thead>
-        </div>
         <tbody>
           {backend.map(item => {
             return (
-              <div className="item" key={item.id}>
-                <tr>
+                <tr className="item" key={item.id}>
                   <td><input type="checkbox" /></td>
                   <td><Switch toggle={item.switch} /></td>
                   <td>
@@ -44,8 +43,15 @@ const Table = () => {
                   <td>{item.location}</td>
                   <td> <img src={item.platform} /></td>
                   <td>{item.status}</td>
+                  <td>
+                    <span>
+                        <img src={Edit} alt="edit" />
+                    </span>
+                    <span>
+                        <img src={Trash} alt="edit" />
+                    </span>
+                  </td>
                 </tr>
-              </div>
             )
           })}
         </tbody>

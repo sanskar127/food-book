@@ -45,13 +45,15 @@
 
 .body {
     width: 1258px;
-    /* height: 596px; */
-    height: 356px;
+    min-height: 446px;
+    max-height: 60vh;
     padding: 32px;
     border-radius: 10px;
     border: 1px solid #DAE6FF;
     background: #FFF;
     box-sizing: border-box;
+    overflow: auto;
+    flex-grow: 1;
 }
 
 .search {
@@ -120,6 +122,10 @@
     width: 48%;
 }
 
+.table {
+    margin-top: 22px;
+}
+
 table {
     width: 1193px;
     height: 48px;
@@ -127,9 +133,9 @@ table {
     border-spacing: 25px 0;
 }
 
-.thead {
-    border-radius: 10px;
+thead {
     border: 1.5px solid #EAEAEA;
+    border-radius: 10px;
     background: #F8F8F8;
     color: rgba(0, 0, 0, 0.50);
     font-family: Eudoxus Sans;
@@ -140,12 +146,20 @@ table {
 }
 
 td {
+    text-align: center;
+    vertical-align: middle;
     color: #000;
     font-family: Eudoxus Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    padding-bottom: 13px;
+}
+
+td span {
+    padding: 5px;
+    cursor: pointer;
 }
 
 .campaign {
@@ -176,6 +190,6 @@ td {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    /* line-height: 32px; */
+    line-height: 32px;
     /* 266.667% */
 }

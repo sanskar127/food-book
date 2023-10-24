@@ -5,10 +5,10 @@
 }
 
 .header {
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column; */
+    /* flex-direction: column; */
     box-sizing: border-box;
     width: 100%;
     padding: 40px;

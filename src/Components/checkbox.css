@@ -1,8 +1,57 @@
 .chip {
+    user-select: none;
     width: 389px;
     height: 80px;
     border-radius: 10px;
     border: 1.5px solid #0F6EFF;
-    background: rgba(231, 240, 255, 0.30);
+    background: #e7f0ff4d;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0 6px;
+}
+
+.icon {
+    margin: 0 16px;
+}
+
+/* .chip img {
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    left: 372px;
+} */
+
+.chip h3 {
+    color: #0B1A33;
+    font-family: Eudoxus Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    margin-bottom: 3px;
+}
+
+.chip h5 {
+    color: rgba(11, 26, 51, 0.50);
+    font-family: Eudoxus Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.26px;
+}
+
+.tick {
+    position: relative;
+    top: -95px;
+    left: 378px;
+}
+
+.chip input {
+    display: none;
 }

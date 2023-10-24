@@ -1,24 +1,8 @@
 import React, { useState } from 'react'
-import Lamp from '../assets/progress/lamp-charge.svg'
-import Bag from '../assets/progress/bag.svg'
-import BagAlt from '../assets/progress/bag-alt.svg'
-import Appointments from '../assets/progress/appointments.svg'
-import AppointmentsAlt from '../assets/progress/appointments-alt.svg'
-import Tick from '../assets/progress/tick-circle.svg'
-import TickAlt from '../assets/progress/tick-circle-alt.svg'
-import './steps.css'
+
 
 const Steps = () => {
-    const progressList = [261, 624, 885, 1108]
-    const [progress, setProgress] = useState(0)
-    const [badge, setBadge] = useState(1)
-
-    const handleClick = () => {
-        if (progress < 3) {
-            setProgress(progress + 1)
-            setBadge(badge + 1)
-        }
-    }
+    
 
     return (
         <div className="container">

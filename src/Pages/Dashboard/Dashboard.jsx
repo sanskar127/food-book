@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './dashboard.css'
 import Circle from '../../assets/images/add-circle.svg'
 import Search from '../../assets/images/search-normal.svg'
@@ -56,7 +57,9 @@ const Dashboard = () => {
           <h2 className="heading">Your Campaigns</h2>
           <h4 className="subheading">Check the list of campigns you created </h4>
         </div>
-        <button className="create"> <img src={Circle} alt="plus" /> Create new campaign</button>
+        <Link to="/campaign" style={{textDecoration: 'none'}}>
+          <button className="create"> <img src={Circle} alt="plus" /> Create new campaign</button>
+        </Link>
       </div>
 
       <div className="body">

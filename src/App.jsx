@@ -7,6 +7,7 @@ import Sidebar from './Components/Sidebar/Sidebar'
 import Navbar from './Components/Navbar/Navbar'
 import './App.css'
 import Campaign from './Pages/Campaign/Campaign'
+import Steps from './Steps'
 
 function App() {
   const router = createBrowserRouter([
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className='App'>
-      <section className='nav-item'>
+      {/* <section className='nav-item'>
         <Navbar />
       </section>
 
@@ -28,7 +29,8 @@ function App() {
 
       <section className='main-item'>
         <RouterProvider router={router} /> 
-      </section >
+      </section > */}
+      <Steps/>
     </div>
   )
 

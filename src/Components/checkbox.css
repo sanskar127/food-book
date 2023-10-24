@@ -1,0 +1,8 @@
+.chip {
+    width: 389px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1.5px solid #0F6EFF;
+    background: rgba(231, 240, 255, 0.30);
+    box-sizing: border-box;
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "icon": "icons/1.svg",
+        "icon-alt": "icons/1a.svg",
+        "title": "Get Leads as calls",
+        "subtitle": "Reach broad audience and get leads through calls"
+    },
+    {
+        "icon": "icons/2.svg",
+        "icon-alt": "icons/2a.svg",
+        "title": "Get Leads as Facebook messages",
+        "subtitle": "Get more FB messages from Leads"
+    },
+    {
+        "icon": "icons/3.svg",
+        "icon-alt": "icons/3a.svg",
+        "title": "Increase page followers",
+        "subtitle": "Encourage customers to follow your page"
+    },
+    {
+        "icon": "icons/4.svg",
+        "icon-alt": "icons/4a.svg",
+        "title": "Get Customer Leads",
+        "subtitle": "Encourage customers to take action"
+    },
+    {
+        "icon": "icons/5.svg",
+        "icon-alt": "icons/5a.svg",
+        "title": "Get more youtube views",
+        "subtitle": "Increase organic views by obtaining user attention"
+    },
+    {
+        "icon": "icons/6.svg",
+        "icon-alt": "icons/6a.svg",
+        "title": "Get more website traffic",
+        "subtitle": "Get the right people to visit your website"
+    },
+    {
+        "icon": "icons/7.svg",
+        "icon-alt": "icons/7a.svg",
+        "title": "Increase Live store traffic",
+        "subtitle": "Drive visits to local stores, restaurants & Dealerships"
+    },
+    {
+        "icon": "icons/8.svg",
+        "icon-alt": "icons/8a.svg",
+        "title": "Increase your App installs",
+        "subtitle": "Get more installs, interactions for your app"
+    },
+    {
+        "icon": "icons/9.svg",
+        "icon-alt": "icons/9a.svg",
+        "title": "Increase the catalogue sales",
+        "subtitle": "Drive the sales of your catalogue and get more leads"
+    }
+]

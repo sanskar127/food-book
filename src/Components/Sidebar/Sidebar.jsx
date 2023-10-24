@@ -16,11 +16,11 @@ import Customers_SVG from '../../assets/vuesax/outline/profile-2user.svg'
 import Customers_SVG_Focus from '../../assets/vuesax/bold/profile-2user.svg'
 
 
-const Tabs = ({ image, imageAlt, text, status = false, css = 'tab' }) => {
+const Tabs = ({ image, imageAlt, text, status = false, }) => {
   const [hover, setHover] = useState(status)
 
   return (
-    <button className={css}
+    <button className='tab'
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       onClick={() => setHover(hover => !hover)}
@@ -46,7 +46,13 @@ const Sidebar = () => {
       <img id='main-logo' src={Logo} alt="main-logo" />
 
       <Tabs image={Home_SVG} imageAlt={Home_SVG_Focus} text={'Home'} />
-      <Tabs image={Campaign_SVG} imageAlt={Campaign_SVG_Focus} text={'Campaign'} css={'special tab'}/>
+      {/* <Tabs image={Campaign_SVG} imageAlt={Campaign_SVG_Focus} text={'Campaign'} css={'tab'} /> */}
+      <button className='special'>
+        <img src={Campaign_SVG_Focus} style={{ height: 21, width: 21 }} />
+        <div>
+          <p>Campaign</p>
+        </div>
+      </button>
       <Tabs image={Products_SVG} imageAlt={Products_SVG_Focus} text={'Products'} />
       <Tabs image={Customers_SVG} imageAlt={Campaign_SVG_Focus} text={'Customers'} />
     </div>

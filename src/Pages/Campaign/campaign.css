@@ -1,0 +1,16 @@
+.campaign-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cbody {
+    width: 1258px;
+    height: 296px;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid #DAE6FF;
+    background: #FFF;
+    box-sizing: border-box;
+    overflow: auto;
+}

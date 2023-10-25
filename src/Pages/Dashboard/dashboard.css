@@ -194,3 +194,22 @@ td span {
     line-height: 32px;
     /* 266.667% */
 }
+
+.status {
+    width: 104px;
+    height: 30px;
+    border-radius: 24px;
+    /* background: #E1FFE0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #317C2E; */
+}
+
+.status h4 {
+    font-family: Eudoxus Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

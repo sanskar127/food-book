@@ -13,7 +13,7 @@
         "budget": "INR.3,400",
         "location": "Chennai",
         "platform": "platforms/fb.svg",
-        "status": "Live now"
+        "status": 0
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@
         "budget": "INR.3,400",
         "location": "Coimbatore",
         "platform": "platforms/fb.svg",
-        "status": "Paused"
+        "status": 1
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "budget": "INR.3,400",
         "location": "Erode",
         "platform": "platforms/fb.svg",
-        "status": "Exhausted"
+        "status": 2
     },
     {
         "id": 4,
@@ -61,7 +61,7 @@
         "budget": "INR.3,400",
         "location": "Coimbatore",
         "platform": "platforms/yt.svg",
-        "status": "Live now"
+        "status": 0
     },
     {
         "id": 5,
@@ -77,6 +77,6 @@
         "budget": "INR.3,400",
         "location": "Coimbatore",
         "platform": "platforms/g.svg",
-        "status": "Live now"
+        "status": 0
     }
 ]

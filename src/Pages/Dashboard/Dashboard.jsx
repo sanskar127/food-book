@@ -49,6 +49,39 @@ const DropdownMenuAlt = ({ list }) => {
   );
 };
 
+const Status = ({ status }) => {
+  const statusLabel = ['Live now', 'Paused', 'Exhausted']
+
+  const handleStatus = () => {
+    if (status == 0) {
+      return {
+        backgroundColor: '#E1FFE0',
+        color: '#317C2E'
+      }
+    }
+
+    if (status == 1) {
+      return {
+        backgroundColor: '#FFF8E0',
+        color: '#D1A307'
+      }
+    }
+
+    if (status == 2) {
+      return {
+        backgroundColor: '#FFDEDE',
+        color: '#FC3F3F'
+      }
+    }
+  }
+
+  return (
+    <div className="status" style={handleStatus()}>
+      <h4>{statusLabel[status]}</h4>
+    </div>
+  )
+}
+
 const Dashboard = () => {
   return (
     <div className='dashboard'>
@@ -57,7 +90,7 @@ const Dashboard = () => {
           <h2 className="heading">Your Campaigns</h2>
           <h4 className="subheading">Check the list of campigns you created </h4>
         </div>
-        <Link to="/campaign" style={{textDecoration: 'none'}}>
+        <Link to="/campaign" style={{ textDecoration: 'none' }}>
           <button className="create"> <img src={Circle} alt="plus" /> Create new campaign</button>
         </Link>
       </div>
@@ -112,7 +145,7 @@ const Dashboard = () => {
                     <td>{item.budget}</td>
                     <td>{item.location}</td>
                     <td> <img src={item.platform} /></td>
-                    <td>{item.status}</td>
+                    <td><Status status={item.status} /></td>
                     <td>
                       <span>
                         <img src={Edit} alt="edit" />

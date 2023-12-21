@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './sidebar.css'
-import Logo from '../../assets/images/Frame.svg'
+import Logo from '../../assets/images/Frame.png'
 
 // Sidebar SVG's 
 import Home_SVG from '../../assets/vuesax/linear/house.svg'
@@ -43,7 +43,7 @@ const Sidebar = () => {
   }, []);
   return (
     <div className='sidebar'>
-      <img id='main-logo' src={Logo} alt="main-logo" />
+      <img id='main-logo' src={Logo} alt="main-logo" height="60" />
 
       <Tabs image={Home_SVG} imageAlt={Home_SVG_Focus} text={'Home'} />
       {/* <Tabs image={Campaign_SVG} imageAlt={Campaign_SVG_Focus} text={'Campaign'} css={'tab'} /> */}
